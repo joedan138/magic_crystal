@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/curtains_resized.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.wrapper {
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+.playArea {
+    position: relative;
+    top: 0;
+	left: 0;
+    border: 10px;
+    border-color: rgb(137, 7, 243);
+    border-style: solid;
+}
+
+#crystalBall {
+    width: 100%;
+}
+
+/* gem size */
+.gems {
+    width: 17%;
+    height: 24%;
+}
+
+/*placement in the crystal ball */
+.gemBox {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+}
+
+#blueGem {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+#greenGem {
+    position: absolute;
+    top: 73%;
+    left: 3%;
+}
+
+#pinkGem {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+#redGem {
+    position: absolute;
+    top: 73%;
+    left: 80%;
+}
+
+#score {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 175px;
+}
+
+
+
+
+
