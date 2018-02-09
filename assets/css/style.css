@@ -65,13 +65,31 @@ body {
     left: 80%;
 }
 
-#score {
+#targetNumber {
     position: absolute;
-    top: 25%;
-    left: 42%;
+    top: -10%;
+    left: 40%;
     color: black;
     font-family: 'Berkshire Swash', cursive;
     font-size: 175px;
+}
+
+.yourScore {
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 75px;
+}
+
+#currentScore {
+    position: absolute;
+    top: 51%;
+    left: 40%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 150px;
 }
 
 
