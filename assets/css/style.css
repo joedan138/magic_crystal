@@ -68,10 +68,11 @@ body {
 #targetNumber {
     position: absolute;
     top: -10%;
-    left: 40%;
-    color: black;
+    left: 35%;
+    color: rgba(185, 159, 7, 0.719);
     font-family: 'Berkshire Swash', cursive;
-    font-size: 175px;
+    text-align: center;
+    font-size: 250px;
 }
 
 .yourScore {
@@ -90,7 +91,69 @@ body {
     color: black;
     font-family: 'Berkshire Swash', cursive;
     font-size: 150px;
+    text-align: center;
 }
+
+/* wins box */
+#winBox {
+    border: 5px;
+    border-color: blue;
+    border-style: solid;
+    width: 20%;
+    height: 14%;
+    position: absolute;
+    top: 58%;
+    left: 28%
+}
+
+#wins {
+    position: absolute;
+    top: 0%;
+    left: 26%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+
+#totalWins {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+
+/* Losses box */
+#lossBox {
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+    width: 20%;
+    height: 14%;
+    position: absolute;
+    top: 58%;
+    left: 48%
+}
+
+#losses {
+    position: absolute;
+    top: 0%;
+    left: 22%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+
+#totalLosses {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+
 
 
 
