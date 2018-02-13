@@ -46,18 +46,17 @@ $(document).ready(function() {
         yourScore += gemValue
         $("#currentScore").html(yourScore);
         if (randomNumber === yourScore ){
-            $("#currentScore").empty();
             yourScore = 0;
-            alert("you have won")
+            alert("YOU HAVE WON!!!\n\n you winner")
+            $("#currentScore").empty();
             winCount += 1;
             $("#totalWins").html(winCount);
             randomNumGenerate(19,120);
             createGemValues();
-            $("#currentScore").empty();
         } else if (yourScore > randomNumber ) {
-            $("#currentScore").empty();
             yourScore = 0;
-            alert("you lose you loser")
+            alert("YOU LOSE\n\n you loser")
+            $("#currentScore").empty();
             lossCount += 1;
             $("#totalLosses").html(lossCount);
             randomNumGenerate(19,120);
