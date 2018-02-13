@@ -1,10 +1,8 @@
 // intro alert with instructions
 $(document).ready(function() {
-    import swal from '../sweetalert/node_modules/sweetalert'
 
-
-    swal('hello world');
-
+    // instructions alert
+    alert("TIME TO DIVINE\n\nTry your hardest to tap into your inner mind and divine the golden number. Each gem is a random value between 1 and 12.\n\nSelect a gem and watch your number grow, but be wary! If you exceed the golden number you shall lose!\n\nARE YOU READY?");
 
     // function to create and append random number
     function randomNumGenerate(min, max) {
