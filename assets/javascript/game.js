@@ -52,6 +52,7 @@ $(document).ready(function() {
             winCount += 1;
             $("#totalWins").html(winCount);
             randomNumGenerate(19,120);
+            gemValueArray;
             createGemValues();
         } else if (yourScore > randomNumber ) {
             yourScore = 0;
@@ -59,7 +60,9 @@ $(document).ready(function() {
             $("#currentScore").empty();
             lossCount += 1;
             $("#totalLosses").html(lossCount);
+            $(".gems").empty();
             randomNumGenerate(19,120);
+            gemValueArray;
             createGemValues();
         }
     });
